@@ -46,7 +46,7 @@ button {
 #save-btn {
     background: darkgreen;
 }
-@media (max-width: 480px) {
+@media  (min-width: 481px) and (max-width: 767px)  {
     body {
         align-items: center;
         align-content: center;
