@@ -46,3 +46,36 @@ button {
 #save-btn {
     background: darkgreen;
 }
+@media (max-width: 480px) {
+    body {
+        align-items: center;
+        align-content: center;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px 15px;
+        border-radius: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 72px;
+        margin-bottom: 25px;
+    }
+
+    button {
+        width: 100%;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
